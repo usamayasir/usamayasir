@@ -1,0 +1,60 @@
+#smartcommerce-ai-chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+#smartcommerce-ai-chatbot-header {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+#smartcommerce-ai-chatbot-header h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+#smartcommerce-ai-chatbot-messages {
+    height: 200px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#smartcommerce-ai-chatbot-form {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#smartcommerce-ai-chatbot-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#smartcommerce-ai-chatbot-submit {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subscription-plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
