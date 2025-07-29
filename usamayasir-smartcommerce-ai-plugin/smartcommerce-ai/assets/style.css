@@ -1,0 +1,101 @@
+#smartcommerce-ai-chatbot-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0073aa;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+#smartcommerce-ai-chatbot-widget {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 350px;
+    max-width: 90%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    z-index: 10000;
+}
+
+#smartcommerce-ai-chatbot-header {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#smartcommerce-ai-chatbot-header p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#smartcommerce-ai-chatbot-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#smartcommerce-ai-chatbot-body {
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.smartcommerce-ai-chatbot-message {
+    margin-bottom: 10px;
+}
+
+.smartcommerce-ai-chatbot-message p {
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.smartcommerce-ai-chatbot-message.user p {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.smartcommerce-ai-chatbot-message.ai p {
+    background-color: #f1f0f0;
+}
+
+#smartcommerce-ai-chatbot-footer {
+    padding: 10px;
+    display: flex;
+}
+
+#smartcommerce-ai-chatbot-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#smartcommerce-ai-chatbot-send {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
